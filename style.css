@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container {
+    height: 800px;
+    width: 800px;
+}
+
+.row {
+    display: flex;
+}
+
+.row > div {
+    border: 1px solid black;
+}
+
+.hovered {
+    background-color: black;
+}
