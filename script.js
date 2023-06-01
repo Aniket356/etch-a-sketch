@@ -1,8 +1,10 @@
 //if random color mode is on, the boxes will change color to a random color when mosue is hovered
 let randomColorMode = false;
+const modeIndicator = document.querySelector('.controls>p')
 const randomColorBtn = document.querySelector('#random_color');
 randomColorBtn.addEventListener('click', function () {
     randomColorMode = randomColorMode ? false : true;
+    modeIndicator.textContent = `Random Color Mode: ${randomColorMode ? "On" : "Off"}`
 })
 
 //this will generate a new grid and remove the previous one
