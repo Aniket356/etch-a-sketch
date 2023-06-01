@@ -20,7 +20,7 @@ function create_new_grid(n){
         row.classList.add('row');
         for(let i = 0; i < n; i++){
             const gridBox = document.createElement('div');
-            gridBox.setAttribute('style', `width: ${(800/n)-2}px; height: ${(800/n)-2}px`)
+            gridBox.setAttribute('style', `width: ${800/n}px; height: ${800/n}px`)
             row.appendChild(gridBox);
         }
         container.appendChild(row);

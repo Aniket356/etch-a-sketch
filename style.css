@@ -25,6 +25,8 @@ h1 {
 .grid-container {
     height: 800px;
     width: 800px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 .controls {
@@ -60,8 +62,4 @@ h1 {
 
 .row {
     display: flex;
-}
-
-.row > div {
-    border: 1px solid black;
 }
